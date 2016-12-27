@@ -15,9 +15,8 @@ class RootViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
         self.tableView = UITableView(frame:CGRect(x: 0, y: 0, width: g_screenSize.width, height: g_screenSize.height))
-        //        self.tableView.contentInset = UIEdgeInsetsMake(60, 0, 0, 0)
         self.view.addSubview(self.tableView)
         self.tableView.delegate = self
         self.tableView.dataSource = self
