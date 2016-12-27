@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01A9E7A42CB8D83993870BD5 /* libPods-YFPPOPDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51E027162283AA829AC9388E /* libPods-YFPPOPDemo.a */; };
+		572B06671E113C8700096849 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572B06661E113C8700096849 /* AppDelegate.swift */; };
+		572B066E1E113C8700096849 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 572B066D1E113C8700096849 /* Assets.xcassets */; };
+		572B06711E113C8700096849 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 572B066F1E113C8700096849 /* LaunchScreen.storyboard */; };
+		572B067C1E113C8700096849 /* YFPPOPDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572B067B1E113C8700096849 /* YFPPOPDemoTests.swift */; };
+		572B06871E113C8700096849 /* YFPPOPDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572B06861E113C8700096849 /* YFPPOPDemoUITests.swift */; };
+		572B06981E113F9200096849 /* constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 572B06971E113F9200096849 /* constants.m */; };
+		572B069B1E11400100096849 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572B06991E11400100096849 /* RootViewController.swift */; };
+		572B069C1E11400100096849 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 572B069A1E11400100096849 /* RootViewController.xib */; };
+		572B06A01E1140B000096849 /* DefaultTimingFucViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572B069E1E1140B000096849 /* DefaultTimingFucViewController.swift */; };
+		572B06A11E1140B000096849 /* DefaultTimingFucViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 572B069F1E1140B000096849 /* DefaultTimingFucViewController.xib */; };
+		572B06A41E11410500096849 /* BasicAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572B06A21E11410500096849 /* BasicAnimationViewController.swift */; };
+		572B06A51E11410500096849 /* BasicAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 572B06A31E11410500096849 /* BasicAnimationViewController.xib */; };
+		572B06AE1E11458B00096849 /* SpringAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572B06AC1E11458B00096849 /* SpringAnimationViewController.swift */; };
+		572B06AF1E11458B00096849 /* SpringAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 572B06AD1E11458B00096849 /* SpringAnimationViewController.xib */; };
+		572B06B31E115DA400096849 /* DecayAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572B06B11E115DA400096849 /* DecayAnimationViewController.swift */; };
+		572B06B41E115DA400096849 /* DecayAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 572B06B21E115DA400096849 /* DecayAnimationViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		572B06781E113C8700096849 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 572B065B1E113C8700096849 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 572B06621E113C8700096849;
+			remoteInfo = YFPPOPDemo;
+		};
+		572B06831E113C8700096849 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 572B065B1E113C8700096849 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 572B06621E113C8700096849;
+			remoteInfo = YFPPOPDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		51E027162283AA829AC9388E /* libPods-YFPPOPDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YFPPOPDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		572B06631E113C8700096849 /* YFPPOPDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YFPPOPDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		572B06661E113C8700096849 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		572B066D1E113C8700096849 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		572B06701E113C8700096849 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		572B06721E113C8700096849 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		572B06771E113C8700096849 /* YFPPOPDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YFPPOPDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		572B067B1E113C8700096849 /* YFPPOPDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YFPPOPDemoTests.swift; sourceTree = "<group>"; };
+		572B067D1E113C8700096849 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		572B06821E113C8700096849 /* YFPPOPDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YFPPOPDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		572B06861E113C8700096849 /* YFPPOPDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YFPPOPDemoUITests.swift; sourceTree = "<group>"; };
+		572B06881E113C8700096849 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		572B06951E113F7E00096849 /* constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = constants.h; sourceTree = "<group>"; };
+		572B06961E113F9100096849 /* YFPPOPDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "YFPPOPDemo-Bridging-Header.h"; path = "constants/YFPPOPDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		572B06971E113F9200096849 /* constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = constants.m; sourceTree = "<group>"; };
+		572B06991E11400100096849 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		572B069A1E11400100096849 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		572B069E1E1140B000096849 /* DefaultTimingFucViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultTimingFucViewController.swift; sourceTree = "<group>"; };
+		572B069F1E1140B000096849 /* DefaultTimingFucViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DefaultTimingFucViewController.xib; sourceTree = "<group>"; };
+		572B06A21E11410500096849 /* BasicAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicAnimationViewController.swift; sourceTree = "<group>"; };
+		572B06A31E11410500096849 /* BasicAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BasicAnimationViewController.xib; sourceTree = "<group>"; };
+		572B06AC1E11458B00096849 /* SpringAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringAnimationViewController.swift; sourceTree = "<group>"; };
+		572B06AD1E11458B00096849 /* SpringAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpringAnimationViewController.xib; sourceTree = "<group>"; };
+		572B06B11E115DA400096849 /* DecayAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecayAnimationViewController.swift; sourceTree = "<group>"; };
+		572B06B21E115DA400096849 /* DecayAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DecayAnimationViewController.xib; sourceTree = "<group>"; };
+		5CE7EB32C44AB823C95FD5A5 /* Pods-YFPPOPDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YFPPOPDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YFPPOPDemo/Pods-YFPPOPDemo.release.xcconfig"; sourceTree = "<group>"; };
+		638FA538C97F663D789165F9 /* Pods-YFPPOPDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YFPPOPDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YFPPOPDemo/Pods-YFPPOPDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		572B06601E113C8700096849 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01A9E7A42CB8D83993870BD5 /* libPods-YFPPOPDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		572B06741E113C8700096849 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		572B067F1E113C8700096849 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		572B065A1E113C8700096849 = {
+			isa = PBXGroup;
+			children = (
+				572B06651E113C8700096849 /* YFPPOPDemo */,
+				572B067A1E113C8700096849 /* YFPPOPDemoTests */,
+				572B06851E113C8700096849 /* YFPPOPDemoUITests */,
+				572B06641E113C8700096849 /* Products */,
+				C4D1F6CAE89B832DBB584E44 /* Pods */,
+				BF83433AE15A456500576D8E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		572B06641E113C8700096849 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				572B06631E113C8700096849 /* YFPPOPDemo.app */,
+				572B06771E113C8700096849 /* YFPPOPDemoTests.xctest */,
+				572B06821E113C8700096849 /* YFPPOPDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		572B06651E113C8700096849 /* YFPPOPDemo */ = {
+			isa = PBXGroup;
+			children = (
+				572B069D1E1140A200096849 /* BasicAnimation */,
+				572B06AB1E11457D00096849 /* SpringAnimation */,
+				572B06B01E115D8D00096849 /* DecayAnimation */,
+				572B06941E113F6300096849 /* constants */,
+				572B06661E113C8700096849 /* AppDelegate.swift */,
+				572B066D1E113C8700096849 /* Assets.xcassets */,
+				572B066F1E113C8700096849 /* LaunchScreen.storyboard */,
+				572B06961E113F9100096849 /* YFPPOPDemo-Bridging-Header.h */,
+				572B06721E113C8700096849 /* Info.plist */,
+				572B06991E11400100096849 /* RootViewController.swift */,
+				572B069A1E11400100096849 /* RootViewController.xib */,
+			);
+			path = YFPPOPDemo;
+			sourceTree = "<group>";
+		};
+		572B067A1E113C8700096849 /* YFPPOPDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				572B067B1E113C8700096849 /* YFPPOPDemoTests.swift */,
+				572B067D1E113C8700096849 /* Info.plist */,
+			);
+			path = YFPPOPDemoTests;
+			sourceTree = "<group>";
+		};
+		572B06851E113C8700096849 /* YFPPOPDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				572B06861E113C8700096849 /* YFPPOPDemoUITests.swift */,
+				572B06881E113C8700096849 /* Info.plist */,
+			);
+			path = YFPPOPDemoUITests;
+			sourceTree = "<group>";
+		};
+		572B06941E113F6300096849 /* constants */ = {
+			isa = PBXGroup;
+			children = (
+				572B06951E113F7E00096849 /* constants.h */,
+				572B06971E113F9200096849 /* constants.m */,
+			);
+			path = constants;
+			sourceTree = "<group>";
+		};
+		572B069D1E1140A200096849 /* BasicAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				572B06A21E11410500096849 /* BasicAnimationViewController.swift */,
+				572B06A31E11410500096849 /* BasicAnimationViewController.xib */,
+				572B069E1E1140B000096849 /* DefaultTimingFucViewController.swift */,
+				572B069F1E1140B000096849 /* DefaultTimingFucViewController.xib */,
+			);
+			path = BasicAnimation;
+			sourceTree = "<group>";
+		};
+		572B06AB1E11457D00096849 /* SpringAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				572B06AC1E11458B00096849 /* SpringAnimationViewController.swift */,
+				572B06AD1E11458B00096849 /* SpringAnimationViewController.xib */,
+			);
+			path = SpringAnimation;
+			sourceTree = "<group>";
+		};
+		572B06B01E115D8D00096849 /* DecayAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				572B06B11E115DA400096849 /* DecayAnimationViewController.swift */,
+				572B06B21E115DA400096849 /* DecayAnimationViewController.xib */,
+			);
+			path = DecayAnimation;
+			sourceTree = "<group>";
+		};
+		BF83433AE15A456500576D8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51E027162283AA829AC9388E /* libPods-YFPPOPDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4D1F6CAE89B832DBB584E44 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				638FA538C97F663D789165F9 /* Pods-YFPPOPDemo.debug.xcconfig */,
+				5CE7EB32C44AB823C95FD5A5 /* Pods-YFPPOPDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		572B06621E113C8700096849 /* YFPPOPDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 572B068B1E113C8700096849 /* Build configuration list for PBXNativeTarget "YFPPOPDemo" */;
+			buildPhases = (
+				1FCA0D9AB1CE4098D39CD16B /* [CP] Check Pods Manifest.lock */,
+				572B065F1E113C8700096849 /* Sources */,
+				572B06601E113C8700096849 /* Frameworks */,
+				572B06611E113C8700096849 /* Resources */,
+				12FB39253955B84D59E7A876 /* [CP] Embed Pods Frameworks */,
+				29F952E778900742C2B84FBE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YFPPOPDemo;
+			productName = YFPPOPDemo;
+			productReference = 572B06631E113C8700096849 /* YFPPOPDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		572B06761E113C8700096849 /* YFPPOPDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 572B068E1E113C8700096849 /* Build configuration list for PBXNativeTarget "YFPPOPDemoTests" */;
+			buildPhases = (
+				572B06731E113C8700096849 /* Sources */,
+				572B06741E113C8700096849 /* Frameworks */,
+				572B06751E113C8700096849 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				572B06791E113C8700096849 /* PBXTargetDependency */,
+			);
+			name = YFPPOPDemoTests;
+			productName = YFPPOPDemoTests;
+			productReference = 572B06771E113C8700096849 /* YFPPOPDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		572B06811E113C8700096849 /* YFPPOPDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 572B06911E113C8700096849 /* Build configuration list for PBXNativeTarget "YFPPOPDemoUITests" */;
+			buildPhases = (
+				572B067E1E113C8700096849 /* Sources */,
+				572B067F1E113C8700096849 /* Frameworks */,
+				572B06801E113C8700096849 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				572B06841E113C8700096849 /* PBXTargetDependency */,
+			);
+			name = YFPPOPDemoUITests;
+			productName = YFPPOPDemoUITests;
+			productReference = 572B06821E113C8700096849 /* YFPPOPDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		572B065B1E113C8700096849 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Charles Yao";
+				TargetAttributes = {
+					572B06621E113C8700096849 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ML674CKRN7;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					572B06761E113C8700096849 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ML674CKRN7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 572B06621E113C8700096849;
+					};
+					572B06811E113C8700096849 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ML674CKRN7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 572B06621E113C8700096849;
+					};
+				};
+			};
+			buildConfigurationList = 572B065E1E113C8700096849 /* Build configuration list for PBXProject "YFPPOPDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 572B065A1E113C8700096849;
+			productRefGroup = 572B06641E113C8700096849 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				572B06621E113C8700096849 /* YFPPOPDemo */,
+				572B06761E113C8700096849 /* YFPPOPDemoTests */,
+				572B06811E113C8700096849 /* YFPPOPDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		572B06611E113C8700096849 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				572B06711E113C8700096849 /* LaunchScreen.storyboard in Resources */,
+				572B06A11E1140B000096849 /* DefaultTimingFucViewController.xib in Resources */,
+				572B06AF1E11458B00096849 /* SpringAnimationViewController.xib in Resources */,
+				572B06B41E115DA400096849 /* DecayAnimationViewController.xib in Resources */,
+				572B06A51E11410500096849 /* BasicAnimationViewController.xib in Resources */,
+				572B066E1E113C8700096849 /* Assets.xcassets in Resources */,
+				572B069C1E11400100096849 /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		572B06751E113C8700096849 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		572B06801E113C8700096849 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12FB39253955B84D59E7A876 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YFPPOPDemo/Pods-YFPPOPDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1FCA0D9AB1CE4098D39CD16B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		29F952E778900742C2B84FBE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YFPPOPDemo/Pods-YFPPOPDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		572B065F1E113C8700096849 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				572B06671E113C8700096849 /* AppDelegate.swift in Sources */,
+				572B06A01E1140B000096849 /* DefaultTimingFucViewController.swift in Sources */,
+				572B06981E113F9200096849 /* constants.m in Sources */,
+				572B06A41E11410500096849 /* BasicAnimationViewController.swift in Sources */,
+				572B06AE1E11458B00096849 /* SpringAnimationViewController.swift in Sources */,
+				572B06B31E115DA400096849 /* DecayAnimationViewController.swift in Sources */,
+				572B069B1E11400100096849 /* RootViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		572B06731E113C8700096849 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				572B067C1E113C8700096849 /* YFPPOPDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		572B067E1E113C8700096849 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				572B06871E113C8700096849 /* YFPPOPDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		572B06791E113C8700096849 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 572B06621E113C8700096849 /* YFPPOPDemo */;
+			targetProxy = 572B06781E113C8700096849 /* PBXContainerItemProxy */;
+		};
+		572B06841E113C8700096849 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 572B06621E113C8700096849 /* YFPPOPDemo */;
+			targetProxy = 572B06831E113C8700096849 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		572B066F1E113C8700096849 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				572B06701E113C8700096849 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		572B06891E113C8700096849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		572B068A1E113C8700096849 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		572B068C1E113C8700096849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 638FA538C97F663D789165F9 /* Pods-YFPPOPDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = ML674CKRN7;
+				INFOPLIST_FILE = YFPPOPDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Charles.YFPPOPDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YFPPOPDemo/constants/YFPPOPDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		572B068D1E113C8700096849 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CE7EB32C44AB823C95FD5A5 /* Pods-YFPPOPDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = ML674CKRN7;
+				INFOPLIST_FILE = YFPPOPDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Charles.YFPPOPDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YFPPOPDemo/constants/YFPPOPDemo-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		572B068F1E113C8700096849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ML674CKRN7;
+				INFOPLIST_FILE = YFPPOPDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Charles.YFPPOPDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YFPPOPDemo.app/YFPPOPDemo";
+			};
+			name = Debug;
+		};
+		572B06901E113C8700096849 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ML674CKRN7;
+				INFOPLIST_FILE = YFPPOPDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Charles.YFPPOPDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YFPPOPDemo.app/YFPPOPDemo";
+			};
+			name = Release;
+		};
+		572B06921E113C8700096849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ML674CKRN7;
+				INFOPLIST_FILE = YFPPOPDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Charles.YFPPOPDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = YFPPOPDemo;
+			};
+			name = Debug;
+		};
+		572B06931E113C8700096849 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ML674CKRN7;
+				INFOPLIST_FILE = YFPPOPDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Charles.YFPPOPDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = YFPPOPDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		572B065E1E113C8700096849 /* Build configuration list for PBXProject "YFPPOPDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				572B06891E113C8700096849 /* Debug */,
+				572B068A1E113C8700096849 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		572B068B1E113C8700096849 /* Build configuration list for PBXNativeTarget "YFPPOPDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				572B068C1E113C8700096849 /* Debug */,
+				572B068D1E113C8700096849 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		572B068E1E113C8700096849 /* Build configuration list for PBXNativeTarget "YFPPOPDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				572B068F1E113C8700096849 /* Debug */,
+				572B06901E113C8700096849 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		572B06911E113C8700096849 /* Build configuration list for PBXNativeTarget "YFPPOPDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				572B06921E113C8700096849 /* Debug */,
+				572B06931E113C8700096849 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 572B065B1E113C8700096849 /* Project object */;
+}
